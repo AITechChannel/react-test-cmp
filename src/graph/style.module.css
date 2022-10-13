@@ -1,0 +1,36 @@
+.content {
+  display: grid;
+  grid-template-columns: repeat(12, 100px);
+  gap: 1px;
+  background-color: #ededed;
+  height: 400px;
+  position: relative;
+}
+
+.content2 {
+  display: grid;
+  grid-template-columns: repeat(12, 100px);
+
+  height: 400px;
+  position: absolute;
+  z-index: 2;
+}
+
+.item {
+  background-color: white;
+}
+
+.col {
+  height: 400px;
+  width: 10px;
+  background-color: gray;
+  /* position: absolute; */
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.percent {
+  height: 80%;
+  background: red;
+  width: 100%;
+}
